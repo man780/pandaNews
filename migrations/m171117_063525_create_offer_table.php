@@ -29,6 +29,7 @@ class m171117_063525_create_offer_table extends Migration
             'status' => $this->integer(),
             'geo_id' => $this->integer()->notNull(),
             'priority' => $this->integer(),
+            'dcreated' => $this->integer(),
         ]);
 
         // creates index for column `author_id`

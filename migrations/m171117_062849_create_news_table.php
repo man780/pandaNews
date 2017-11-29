@@ -26,6 +26,7 @@ class m171117_062849_create_news_table extends Migration
             'status' => $this->integer(),
             'geo_id' => $this->integer()->notNull(),
             'priority' => $this->integer(),
+            'time' => $this->integer(),
         ]);
 
         // creates index for column `author_id`
